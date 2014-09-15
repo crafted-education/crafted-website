@@ -1,1 +1,1 @@
-web: main.go
+web: crafted-website
