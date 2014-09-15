@@ -1,0 +1,5 @@
+{
+	"ImportPath": "github.com/m4tty/crafted-website",
+	"GoVersion": "go1.3",
+	"Deps": []
+}
