@@ -30,12 +30,13 @@
     <![endif]-->
 </head>
     <!--END HEAD SECTION -->
-<body>   
-     <!-- NAV SECTION -->
+<body>
+ <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -46,21 +47,22 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#header-section">Home</a></li>
                     <li><a href="#about-section">About</a></li>
+                    <li><a href="#price-section">Services</a></li>
 
                     <li><a href="#team-section">Team</a></li>
-                    <li><a href="#price-section">Services</a></li>
                 </ul>
             </div>
            
         </div>
     </div>
+    </nav>
      <!--END NAV SECTION -->
      <!-- HEADER SECTION -->
     <div id="header-section" >
           <div class="container">
         
             <div class="row main-top-margin">
-		    <div align="center">
+		    <div class="img-margin-product" align="center">
 			<img  class="img-responsive" src="../img/CraftedLogo_darker.jpg">
 		</div> 
             </div>
@@ -169,7 +171,7 @@ Crafted Education isn’t your normal tech consulting company.
                     <div id="pricing-table" class="row">
                         <div class="col-md-4 col-sm-4">
                             <div class="team-member">
-					<img src="assets/img/ana.jpg" style="max-width: 200px; height: auto; "  class="img-responsive img-circle" alt="">
+					<img src="assets/img/Ana2.jpg" style="max-width: 200px; height: auto; "  class="img-responsive img-circle" alt="">
 					<h4>Ana Hernandez</h4>
 					<p class="text-muted">COO</p>
 					<ul class="list-inline social-buttons">
@@ -183,7 +185,7 @@ Crafted Education isn’t your normal tech consulting company.
 			   </div>
                         <div class="col-md-4 col-sm-4" >
                      		<div class="team-member">
-					<img src="assets/img/katy.jpg" style="max-width: 200px; height: auto; " class="img-responsive img-circle" alt="">
+					<img src="assets/img/Katy2.jpg" style="max-width: 200px; height: auto; " class="img-responsive img-circle" alt="">
 					<h4>Katy Kappler</h4>
 					<p class="text-muted">CEO</p>
 					<ul class="list-inline social-buttons">
@@ -197,7 +199,7 @@ Crafted Education isn’t your normal tech consulting company.
 		       </div>
                         <div class="col-md-4 col-sm-4">
           				<div class="team-member">
-					<img src="http://www.gravatar.com/avatar/41a0803d9c420f5cbbadcb062be04923.png?s=200" class="img-responsive img-circle" alt="">
+					<img src="assets/img/matt2.jpg" style="max-width: 200px; height: auto; " class="img-responsive img-circle" alt="">
 					<h4>Matt Self</h4>
 					<p class="text-muted">CTO</p>
 					<ul class="list-inline social-buttons">
@@ -244,67 +246,25 @@ Crafted Education isn’t your normal tech consulting company.
             
         </div>
     </div>
-     <div class="space-top"></div>
-        <div class="container" >
-                       <div class="row">
-                <div class="col-md-12  col-sm-12 ">
-                    <div class="col-md-6  col-sm-12" >
-                        <h3>Physical Address</h3>
-                        <hr />
-                        <p>
-                        <br />
-                        <br />                          
-                        <br />
-                        <br />
-                            </p>
-                      
-                    </div>
-                    <div class="col-md-6  col-sm-12" >
-                        <h3>Need Help ? Write Us. </h3>
-                        <hr />
-                        <form>
-                            <div class="row">
-                                <div class="col-md-6 col-sm-6">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" required="required" placeholder="Name">
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-sm-6">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" required="required" placeholder="Email address">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12 col-sm-12">
-                                    <div class="form-group">
-                                        <textarea name="message" id="message" required="required" class="form-control" rows="3"  placeholder="Message"></textarea>
-                                    </div>
-                                    <div class="form-group">
-                                        <button type="submit" class="btn btn-primary">Submit Request</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                    
-                </div>
-            </div>
-             <!-- ./ Row Content-->
-        </div>
-   <div class="space-top"></div>
+           <div class="space-top"></div>
     <!--END CONTACT SECTION --> 
       <!--FOOTER SECTION -->
-    
+   
+
       <div class="text-center"  id="footer" >
-               
-                      <a href="#"><i class="fa fa-facebook-square fa-3x color-facebook"></i></a>
-                        <a href="http://twitter.com/craftededu"><i class="fa fa-twitter-square fa-3x color-twitter"></i></a>
-                        <a href="#"><i class="fa fa-google-plus-square fa-3x color-google-plus"></i></a>
-                        <a href="#"><i class="fa fa-linkedin-square fa-3x color-linkedin"></i></a>
-                        <a href="#"><i class="fa fa-pinterest-square fa-3x color-pinterest"></i></a>
-          <br /><br />
-         2014 crafted.education | All Right Reserved
+	<ul class="list-inline intro-social-buttons">
+						<li>
+						<a href="https://twitter.com/craftededu" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+						</li>
+						<li>
+						<a href="https://github.com/crafted-education" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+						</li>
+						<li>
+						<a href="https://www.linkedin.com/company/crafted-education" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
+						</li>
+					</ul>
+      
+             2014 crafted.education | All Right Reserved
          
             </div>
          

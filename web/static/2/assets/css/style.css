@@ -62,7 +62,9 @@ p {
 }
 
 .img-margin-product {
-    margin-top: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
 }
 
 .bottam-pad {
@@ -218,7 +220,7 @@ p {
 }
 
     .navbar-inverse .navbar-nav > .active > a {
-        background: #ffffff;
+        background: #000000;
     }
 
     .navbar-inverse .navbar-brand {
@@ -230,7 +232,7 @@ p {
     }
 
     .navbar-inverse :hover .navbar-brand:hover {
-        color: #fff;
+        color: #00000;
     }
 
     .navbar-inverse .navbar-nav > li > a {
