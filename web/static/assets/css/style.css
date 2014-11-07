@@ -132,6 +132,10 @@ p {
     background: #EB8F2D!important;
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+	    background-color: black;
+    }
+
 #pricing-section .plan-main {
     background: #31B2D3;
     list-style: none;
@@ -209,6 +213,9 @@ p {
 /* ===========================================================
    BOOTSTRAP ELEMENTS CHANGES   
    ============================================================*/
+ul.nav a:hover { color: #96989A !important; }
+
+
 .navbar {
     font-weight: 500;
     font-size: 14px;
@@ -231,7 +238,7 @@ p {
         letter-spacing: 1px;
     }
 
-    .navbar-inverse :hover .navbar-brand:hover {
+    .navbar-inverse:hover .navbar-brand:hover {
         color: #000000;
     }
 
